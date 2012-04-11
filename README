@@ -1,0 +1,9 @@
+LCD 128x64 (ST7920) driver on Atmel AVR 8-bit microcontrollers.
+
+Features:
+	1. Object-oriented. You can easily drive multiple LCDs with this driver.
+	2. 3 modes support. Serial, half-byte parallel and byte parallel are fully supported.
+	3. Real-time. Using timer-based ticks ensures real-time delay.
+
+Usage:
+	Copy lcd12864.h and lcd12864.c to your project and feel free to use it. Normally you don't need to modify either lcd12864.h or lcd12864.c. Just initialize an LCD instance and invoke functions like the way in Arduino.
